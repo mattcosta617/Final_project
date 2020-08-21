@@ -27,6 +27,10 @@ profile_name<br>
 user<br>
 Projects<br>
 upload_picture<br>
+education<br>
+hobbies<br>
+sellout<br>
+
 
 
 <h3>Languages:</h3>
@@ -45,6 +49,12 @@ Expert<br>
 <h3>Companies</h3>
 company_name<br>
 description<br>
+
+
+
+
+
+
 
 
 <h2>MVP</h2>
@@ -146,6 +156,11 @@ DONE BY TUESDAY AUGUST 25, 2020 **8PM**<br>
     - Edit/Delete company comments<br>
     - Link the API from Linkedin if worth while or just add the link from linkedin<br>
     - Maybe get the github API? <br>
+2) Fix the hobbies and education sections:
+    - Make it so that it holds more than one slot per person
+    -Give the education a school header and a description base
+    -Maybe find some sort of all schools api? <-- Would be pretty awesome
+    
 
 DONE BY WEDNESDAY AUGUST 26, 2020 **8PM**<br>
 
