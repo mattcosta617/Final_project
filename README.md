@@ -91,7 +91,7 @@ Stretch goals:
     - "About Us" - "Login" - "Signup"<br>
     - IF logged in display "Experts" - "Languages"<br>
 
-// SPRINT 1 DONE BY FRIDAY AUGUST 21, 2020 **12pm**<br>
+// SPRINT 1 DONE BY FRIDAY AUGUST 21, 2020 **8pm**<br>
 
 <h3>Sprint 2</h3>
 1) Create About Us component:<br>
@@ -100,7 +100,7 @@ Stretch goals:
     - How do we benefit Engineers?<br>
     - How do we benefit employers?<br>
     - Make sure Nav directs to About Us section<br>
-// DONE BY FRIDAY AUGUST 21, 2020 **4PM**
+// DONE BY SATURDAY AUGUST 22, 2020 **12PM**
 
 2) Page Organization/Main components:<br>
     -- create Language form for file upload: <br>
@@ -120,7 +120,7 @@ Stretch goals:
         - Allow users the option to upload their linkedin profiles<br>
 
 
-// DONE BY SATURDAY AUGUST 22, 2020 **8PM**
+// DONE BY SUNDAY AUGUST 23, 2020 **12PM**
 
 3) Create Sign up section on home page via component:<br>
     -- create the sign up form <br>
