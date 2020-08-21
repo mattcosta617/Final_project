@@ -1,9 +1,9 @@
 # Find An Expert
 
-Links:
-TRELLO: https://trello.com/b/xhQFEHdQ/find-an-expert
-FIGMA: https://www.figma.com/file/wtUnsPEoNDX2i8uOKask9t/Find-An-Expert?node-id=0%3A1
-GITHUB: https://github.com/mattcosta617/Final_project
+Links:<br>
+TRELLO: https://trello.com/b/xhQFEHdQ/find-an-expert<br>
+FIGMA: https://www.figma.com/file/wtUnsPEoNDX2i8uOKask9t/Find-An-Expert?node-id=0%3A1<br>
+GITHUB: https://github.com/mattcosta617/Final_project<br>
 
 My project will be called Find An Expert. This is a resource where jobs can search for
 employees viewing their profiles instead of employees hunting for companies to get on
