@@ -100,6 +100,7 @@ Stretch goals:
     - How do we benefit Engineers?<br>
     - How do we benefit employers?<br>
     - Make sure Nav directs to About Us section<br>
+    
 // DONE BY SATURDAY AUGUST 22, 2020 **12PM**<br>
 
 2) Page Organization/Main components:<br>
