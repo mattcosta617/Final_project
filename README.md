@@ -13,6 +13,11 @@ see what they've done and maybe it matches up with what 1,000,000 other people h
 
 - <h2>Models will include:</h2>
 
+<h3>Projects</h3>
+project_name<br>
+creation_date<br>
+project_file<br>
+
 <h3>Expert:</h3>
 first_name<br>
 last_name <br>
@@ -20,19 +25,20 @@ age<br>
 bio<br>
 profile_name<br>
 user<br>
+Projects<br>
 upload_picture<br>
 
 
 <h3>Languages:</h3>
 language<br>
-expert<br>
+Expert<br>
 
 
 <h3>Cities:</h3>
 country<br>
 state<br>
 city<br>
-expert<br>
+Expert<br>
 ***********companies************BONUS**<br>
 
 **********BONUS*************
