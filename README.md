@@ -29,8 +29,7 @@ Projects<br>
 upload_picture<br>
 education<br>
 hobbies<br>
-sellout<br>
-
+whyYou<br>
 
 
 <h3>Languages:</h3>
@@ -49,9 +48,6 @@ Expert<br>
 <h3>Companies</h3>
 company_name<br>
 description<br>
-
-
-
 
 
 
@@ -160,7 +156,13 @@ DONE BY TUESDAY AUGUST 25, 2020 **8PM**<br>
     - Make it so that it holds more than one slot per person
     -Give the education a school header and a description base
     -Maybe find some sort of all schools api? <-- Would be pretty awesome
-    
+
 
 DONE BY WEDNESDAY AUGUST 26, 2020 **8PM**<br>
+
+
+
+Questions:
+
+I am thinking of using api's from LinkedIn and/or Google and maybe using it for login, do you think that is possible? Curious if I would need some sort of security guarantee or they have their own security when calling for info.
 
