@@ -136,6 +136,7 @@ Stretch goals:
     -Linked in or possibly just display their linked in profile<br>
     -Not sure which ones yet but maybe add info from other sites<br>
 3) Users should be able to delete/edit profiles and fileuploads<br>
+4) Deploy on Heroku
 
 DONE BY TUESDAY AUGUST 25, 2020 **8PM**<br>
 
