@@ -100,7 +100,7 @@ Stretch goals:
     - How do we benefit Engineers?<br>
     - How do we benefit employers?<br>
     - Make sure Nav directs to About Us section<br>
-// DONE BY SATURDAY AUGUST 22, 2020 **12PM**
+// DONE BY SATURDAY AUGUST 22, 2020 **12PM**<br>
 
 2) Page Organization/Main components:<br>
     -- create Language form for file upload: <br>
@@ -120,7 +120,7 @@ Stretch goals:
         - Allow users the option to upload their linkedin profiles<br>
 
 
-// DONE BY SUNDAY AUGUST 23, 2020 **12PM**
+// DONE BY SUNDAY AUGUST 23, 2020 **12PM**<br>
 
 3) Create Sign up section on home page via component:<br>
     -- create the sign up form <br>
