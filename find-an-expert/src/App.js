@@ -1,10 +1,12 @@
 import React from 'react';
-import Home from './component/Home/Home'
+import NavBar from './component/NavBar/NavBar';
+import routes from './config/routes';
 
-function App(props) {
+function App() {
   return (
     <div className="App">
-       <Home />
+      <NavBar />
+       { routes }
     </div>
   );
 }
