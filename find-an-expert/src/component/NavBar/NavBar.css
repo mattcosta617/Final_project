@@ -1,0 +1,16 @@
+nav {
+    background-color: #A0F0DD;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+}
+
+.navigation {
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.homeNavigation {
+    justify-content: left;
+}
