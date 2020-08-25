@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 require('dotenv').config();
 const PORT = process.env.PORT || 5000;
+const mongoose = require('mongoose');
 
 // Routes defined
 experts = require("./routes/experts");
@@ -12,15 +13,18 @@ projects = require("./routes/projects");
 users = require("./routes/users");
 
 
-app.use(cors({
-    origin: [`http://localhost:3000`],
-    credentials: true,
-    methods: "GET,POST,PUT,DELETE",
-    optionsSuccessStatus: 200 // some legacy browsers choke on satus 204
-  }));
+app.use(cors());
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
+
+const uri = process.env.ATLAS_URI;
+mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
+
+const connection = mongoose.connection;
+connection.once('open', () => {
+  console.log("MongoDB database connection established successfully!!");
+})
 
 
 // middleware - API routes

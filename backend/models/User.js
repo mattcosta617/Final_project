@@ -22,7 +22,7 @@ const UserSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-      },
+      }
 });
 
 UserSchema.pre('save', function(next) { 
@@ -50,5 +50,5 @@ UserSchema.methods.comparePassword = function(candidatePassword, cb) {
 };
 
 
-
-module.exports = mongoose.model('User', UserSchema);
+User = mongoose.model('User', UserSchema);
+module.exports = User;

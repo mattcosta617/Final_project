@@ -1,6 +1,9 @@
 body {
-    margin-bottom: 80px; 
     background-color: #C4C4C4
+}
+
+a {
+    
 }
 
 #home {
@@ -39,5 +42,5 @@ body {
     width: 75%;
     left: 12.5%;
     background-color: #E5E5E5;
-    box-shadow: 4px 2px rgb(107, 107, 107);
+    box-shadow: 2px 2px rgb(107, 107, 107);
 }

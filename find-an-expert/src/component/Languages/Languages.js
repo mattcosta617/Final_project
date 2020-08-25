@@ -1,19 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import LanguageList from '../LanguageList/LanguageList';
 // import LanguageModel from '../../model/language';
 
 function Language(props) {
     
 
     return(
-        <Link to={'/languages/${language._id}'}>
         <div className="">
             <section>
                 <h4>Language Page</h4>
-               
             </section>
+                <LanguageList />
         </div>
-        </Link>
     )
 }
 
