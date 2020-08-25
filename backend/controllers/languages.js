@@ -1,4 +1,4 @@
-const db = require('../models/Language');
+const db = require("../models")
 
 const index = (req, res) => {
     db.Language.find({}, (err, foundLanguages) => {

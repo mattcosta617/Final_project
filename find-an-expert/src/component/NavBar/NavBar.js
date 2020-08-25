@@ -11,6 +11,7 @@ class NavBar extends Component {
             <div className="nav-wrapper">
             <NavLink to="/" className="brand-logo" activeClassName="active">Find An Expert</NavLink>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
+                <li><NavLink to="/#about">About</NavLink></li>
                 <li><NavLink to="/languages" activeClassName="active">Languages</NavLink></li>
                 <li><NavLink to="/profile" activeClassName="active">Profile</NavLink></li>
             </ul>         

@@ -1,0 +1,17 @@
+body {
+    margin: o auto;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url("./images/FindExpert.png"); width: 100vw;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

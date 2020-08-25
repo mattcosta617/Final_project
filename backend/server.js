@@ -14,6 +14,7 @@ users = require("./routes/users");
 
 app.use(cors({
     origin: [`http://localhost:3000`],
+    credentials: true,
     methods: "GET,POST,PUT,DELETE",
     optionsSuccessStatus: 200 // some legacy browsers choke on satus 204
   }));

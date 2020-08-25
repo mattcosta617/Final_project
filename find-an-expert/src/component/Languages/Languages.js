@@ -1,9 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Languages() {
+function Language(props) {
+    const { language, list } = props;
+
     return(
-        <h1>This is the language page</h1>
+        <Link to={'/languages/${language._id}'}>
+        <div className="">
+            <section>
+                <h4>{language}</h4>
+               
+            </section>
+        </div>
+        </Link>
     )
 }
 
-export default Languages;
+export default Language;

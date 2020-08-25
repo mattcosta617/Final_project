@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 
 console.log('MONGO DB =', process.env.MONGODB_URI);
 
+require("dotenv").config();
+
 const connectionString = process.env.MONGODB_URI;
 const configOptions = {
     useNewUrlParser: true,
@@ -17,10 +19,8 @@ mongoose.connect(connectionString, configOptions)
 
 module.exports = {
   Expert: require('./Expert'),
-  Languages: require('./Language'),
+  Language: require('./Language'),
   Project: require('./Project'),
   User: require('./User'),
 };
 
-
-// mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
