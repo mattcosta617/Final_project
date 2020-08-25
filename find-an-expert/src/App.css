@@ -2,10 +2,6 @@ body {
     background-color: #C4C4C4
 }
 
-a {
-    
-}
-
 #home {
     display: flex;
     flex-direction: column;
