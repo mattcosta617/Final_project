@@ -12,6 +12,7 @@ const About = () => {
         
             <h3>How do companies and protential employees benefit equally?</h3>
                 <p>Potential employees benefit by having the chance to show what they can do and who they are. Companies benefit by seeing not only what someone can do, but if they are someone that will fit well with the work environment. No company wants a high turnover rate, good workplace morale is a huge key to success.</p>
+                
         </div>
     )
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import routes from '../../config/routes';
 
 function EditProfile() {
     return (
-        <h1>Hello</h1>
+        <button><a href={routes.EditProfile}>Edit Profile</a></button>
     )
 }
 

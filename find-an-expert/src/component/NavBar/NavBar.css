@@ -3,14 +3,34 @@ nav {
     height: 80px;
     width: 100vw;
     display: flex;
+    flex-direction: row;
 }
 
-.navigation {
-    justify-content: center;
-    margin: 5px;
+li {
+    list-style: none;
+}
 
+#navigation {
+    display: flex;
+    width: 25%;
 }
 
 .homeNavigation {
+    display: flex;
+    align-items: center;
     justify-content: left;
+    border: 1px solid black;
+    width: 25%;
+    right: 0;
+}
+
+.navClass {
+    display: flex;
+    align-items: center;
+    flex-direction: right;
+    color: #E5E5E5;
+    text-shadow: 1px 1px black;
+    border: 1px solid black;
+    height: 100%;
+    padding: 10px;
 }

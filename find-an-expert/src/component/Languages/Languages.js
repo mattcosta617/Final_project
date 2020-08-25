@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import LanguageModel from '../../model/language';
 
 function Language(props) {
-    const { language, list } = props;
+    
 
     return(
         <Link to={'/languages/${language._id}'}>
         <div className="">
             <section>
-                <h4>{language}</h4>
+                <h4>Language Page</h4>
                
             </section>
         </div>

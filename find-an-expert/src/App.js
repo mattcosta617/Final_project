@@ -1,7 +1,7 @@
 import React from 'react';
 import routes from './config/routes';
 import NavBar from './component/NavBar/NavBar';
-import { withRouter } from 'react-router-dom';
+// import { withRouter } from 'react-router-dom';
 
 import './App.css';
 
@@ -15,15 +15,15 @@ function App(props) {
   );
 }
 
-function withRouter(Component, props) {
-  return function(props) {
-    const routerProps = {
-      history: () => {},
-      goBack: () => {},
-    };
+// function (Component, props) {
+//   return function(props) {
+//     const routerProps = {
+//       history: () => {},
+//       goBack: () => {},
+//     };
 
-    return <Component {...props} {...routerProps} />
-  }
-}
+//     return <Component {...props} {...routerProps} />
+//   }
+// }
 
-export default withRouter(App);
+export default (App);
