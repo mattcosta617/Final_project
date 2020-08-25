@@ -20,17 +20,3 @@ const ExpertSchema = new mongoose.Schema({
 const Expert = mongoose.model('Expert', ExpertSchema);
 module.exports = Expert;
 
-
-// Expert:
-// first_name
-// last_name
-// bio
-// user
-// Projects
-// upload_picture
-// education
-// hobbies
-// whyYou
-// Languages:
-// language
-// Expert
