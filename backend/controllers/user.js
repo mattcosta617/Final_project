@@ -5,9 +5,14 @@ const db = require('../models');
 
 const register = async (req, res) => {
     // Validate Field Input
-    if (!req.body.username || !req.body.email || !req.body.password) {
+    console.log(req.body);
+    if (
+        !req.body.username || 
+        !req.body.email || 
+        !req.body.password
+        ) {
     return res.status(400).json({message: 'All fields are required. Please try again'});
-}
+    }
     
     if (req.body.password.length < 4) {
         return res.status(400).json({message: "Password must be at least 6 characters or more"})
