@@ -1,9 +1,15 @@
 import React from 'react';
+import Intro from './Intro';
+import About from './About';
 
 
-function Home() {
+
+const Home = () => {
     return (
-        <h1>Home</h1>
+        <div id="home">
+            <Intro />
+            <About />
+        </div>
     )
 }
 

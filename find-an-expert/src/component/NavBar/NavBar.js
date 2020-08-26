@@ -1,14 +1,24 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
-function NavBar() {
+import './NavBar.css';
+
+
+class NavBar extends Component {
+    render() {
     return(
         <nav>
-            <NavLink to="/">Find An Expert</NavLink>
-            <NavLink to="/languages">Languages</NavLink>
-            <NavLink to="/profile">Profile</NavLink>
-        </nav>
-    )
+            <div className="nav-wrapper">
+            <NavLink to="/" className="brand-logo homeNavigation" activeClassName="active">Find An Expert</NavLink>
+            <ul id="nav-mobile" className="right hide-on-med-and-down" id="navigation">
+                <li className="navClass"><Link to="/#about">About</Link></li>
+                <li className="navClass"><NavLink to="/languages" activeClassName="active">Languages</NavLink></li>
+                <li className="navClass"><NavLink to="/profile" activeClassName="active">Profile</NavLink></li>
+            </ul>         
+        </div> 
+       </nav>
+        )
+    }
 }
 
 export default NavBar;

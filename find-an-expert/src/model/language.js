@@ -1,26 +1,26 @@
-const url = 'http://localhost:4000/api/v1/experts'
+const url = `http://localhost:4000/api/v1/languages`
 
-class ExpertModel {
-    static getAllExperts = () => {
+class LanguageModel {
+    static getAllLanguages = () => {
         return fetch(url)
         .then((response) => response.json())
     }
 
-    static getExpertById = (expertId) => {
-        return fetch(`${url}/${expertId}`)
+    static getLanguageById = (languageId) => {
+        return fetch(`${url}/${languageId}`)
         .then((response) => response.json())
     }
 
-    static createExpert = (expert) => {
+    static createLanguage = (language) => {
         return fetch(url, {
             method: 'POST',
             header: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(expert)
+            body: JSON.stringify(language)
         })
         .then((response) => response.json())
     }
 }
 
-export default ExpertModel;
+export default LanguageModel;

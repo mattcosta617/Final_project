@@ -1,9 +1,19 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
+import LanguageList from '../LanguageList/LanguageList';
+// import LanguageModel from '../../model/language';
 
-function Languages() {
+function Language(props) {
+    
+
     return(
-        <h1>This is the language page</h1>
+        <div className="">
+            <section>
+                <h4>Language Page</h4>
+            </section>
+                <LanguageList />
+        </div>
     )
 }
 
-export default Languages;
+export default Language;
