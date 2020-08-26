@@ -1,9 +1,12 @@
 import React from 'react';
+import UserContainer from '../pages/UserContainer/UserContainer';
 
 
 function Signup() {
     return (
-        <h1>Sign Up!</h1>
+        <div className="signup">
+            <UserContainer />
+        </div>
     )
 }
 

@@ -6,7 +6,7 @@ class ProjectModel {
         .then((response) => response.json())
     }
 
-    static getProjectById = (projecteId) => {
+    static getProjectById = (projectId) => {
         return fetch(`${url}/${projectId}`)
         .then((response) => response.json())
     }
